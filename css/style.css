@@ -31,24 +31,29 @@ header p {
 }
 
 /* stili della main */
+
+
+
+
 .row::after {
     content: "";
     display: table;
     clear: both;
+   
 }
 
 .candidato {
     float: left;
     background-color: black;
-    margin: 50px 20px;
+    width: calc(100% / 3);
 
-    /* debug rules */
-    /* width: calc (100% / 3); */
 }
 
 .descrizione {
     float: right;
     color: white;
+    
+    
 }
 
 img {
